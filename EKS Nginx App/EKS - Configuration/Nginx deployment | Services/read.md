@@ -3,4 +3,4 @@ aws eks --region eu-west-2 update-kubeconfig --name eks
 
 2. then we will go ahead and create the deployment and service using the following kubectl command 
 
-kubectl apply -f (filepath on our local host)
+   kubectl apply -f (filepath on our local host)
